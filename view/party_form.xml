@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- This file is part of party_birthday module for Tryton.
+The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license types. -->
+<data>
+    <xpath expr="/form/notebook/page[@id=&quot;info&quot;]/separator[@name=&quot;comment&quot;]"
+            position="before">
+        <label name="birthday"/>
+        <field name="birthday"/>
+    </xpath>
+</data>
